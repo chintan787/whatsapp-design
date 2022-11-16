@@ -91,7 +91,7 @@ export default function NewBroadcast() {
   return (
     <>
 
-    <View style={{borderBottomColor:'#ccc',borderBottomWidth:1,paddingBottom:10,backgroundColor:'#fff',paddingTop:10}}>
+    <View style={{borderBottomColor:'#E9EDF0',borderBottomWidth:1,paddingBottom:10,backgroundColor:'#fff',paddingTop:10}}>
       <Text style={styles.note}>Only contacts with +91 63518 67811 in their address book will recieve your broadcast message.</Text>
     </View>
 

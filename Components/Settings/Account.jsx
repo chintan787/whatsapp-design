@@ -7,6 +7,7 @@ import ChatIcon from "../../icons/ChatIcon";
 import DeleteIcon from "../../icons/AccountSettings/DeleteIcon";
 import DoucmentIcon from "../../icons/DoucmentIcon";
 import SecuirtyIcon from "../../icons/SecuirtyIcon";
+import DocumentsIcon from '../../icons/AccountSettings/DocumentsIcon';
 
 export default function Account() {
   return (
@@ -29,7 +30,9 @@ export default function Account() {
     </View>
 
     <View style={styles.accountList}>
-    <DoucmentIcon />
+    {/* <DoucmentIcon />
+     */}
+     <DocumentsIcon />
       <Text style={styles.accountListTitle}>Request account info</Text>
     </View>
 

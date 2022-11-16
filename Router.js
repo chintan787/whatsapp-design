@@ -14,6 +14,9 @@ import PaymentPage from "./Pages/PaymentPage";
 import StarredMessagePage from "./Pages/StarredMessagePage";
 import AccountPage from "./Pages/AccountPage";
 import PrivacyPage from "./Pages/PrivacyPage";
+import ChatPage from "./Pages/ChatPage";
+import NotificationPage from "./Pages/NotificationPage";
+import HelpPage from "./Pages/HelpPage";
 
 const Stack = createNativeStackNavigator();
 
@@ -74,6 +77,12 @@ export default function Router() {
 
           <Stack.Screen name="Account" component={AccountPage} />
           <Stack.Screen name="Privacy" component={PrivacyPage} />
+          <Stack.Screen name="Chats" component={ChatPage} />
+          <Stack.Screen name="Notification" component={NotificationPage} />
+          <Stack.Screen name="Help" component={HelpPage} />
+
+
+
 
 
 

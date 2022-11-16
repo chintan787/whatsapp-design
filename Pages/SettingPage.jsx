@@ -42,6 +42,7 @@ export default function SettingPage() {
       time: "3 minutes ago",
       iocn: <ChatIcon headerIcon={true} color="#8596A0" />,
       desc: "Theme, wallpapers, chat history",
+      path:"Chats"
     },
     {
       id: 4,
@@ -49,6 +50,7 @@ export default function SettingPage() {
       time: "3 minutes ago",
       iocn: <NotificationIcon />,
       desc: "Message, group & call tones",
+      path:"Notification"
     },
     {
       id: 5,
@@ -70,6 +72,7 @@ export default function SettingPage() {
       time: "3 minutes ago",
       iocn: <HelpIcon />,
       desc: "Help center, contact us, privacy policy",
+      path:"Help"
     },
     {
       id: 8,
